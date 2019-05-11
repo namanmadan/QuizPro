@@ -1,0 +1,102 @@
+CREATE TABLE MCQ (QUESTION VARCHAR(2000), OPTION1 VARCHAR(200), OPTION2 VARCHAR(200), OPTION3 VARCHAR(200), OPTION4 VARCHAR(200), ANS VARCHAR(200));
+
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the range of short data type in Java?', '-128 to 127', '-32768 to 32767', '-2147483648 to 2147483647', 'None of the mentioned', '-32768 to 32767');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the range of byte data type in Java?', '-128 to 127', '-32768 to 32767', '-2147483648 to 2147483647', 'None of the mentioned', '-128 to 127');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('An expression involving byte, int, and literal numbers is promoted to which of these?', 'int', 'long', 'byte', 'float', 'int');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these literals can be contained in float data type variable?', '-1.7e+308', '-3.4e+038', '+1.7e+308', '-3.4e+050', '-3.4e+038');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which data type value is returned by all transcendental math functions?', 'int', 'float', 'double', 'long', 'double');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the numerical range of a char data type in Java?', '-128 to 127', '0 to 256', '0 to 32767', '0 to 65535', '0 to 65535');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these coding types is used for data type characters in Java?', 'ASCII', 'ISO-LATIN-1', 'UNICODE', 'None of the mentioned', 'UNICODE');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these values can a boolean variable contain?', 'True & False', '0 & 1', 'Any integer value', 'true', 'True & False');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these occupy first 0 to 127 in Unicode character set used for characters in Java?', 'ASCII', 'ISO-LATIN-1', 'None of the mentioned', 'ASCII and ISO-LATIN1', 'ASCII and ISO-LATIN1');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which one is a valid declaration of a boolean?', 'boolean b1 = 1;', 'boolean b2 = "false";', 'boolean b3 = false;', 'boolean b4 = "true";', 'boolean b3 = false;');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the order of variables in Enum?', 'Ascending order', 'Descending order', 'Random order', 'depends on the order() method', 'Ascending order');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('If we try to add Enum constants to a TreeSet, what sorting order will it use?', 'Sorted in the order of declaration of Enums', 'Sorted in alphabetical order of Enums', 'Sorted based on order() method', 'Sorted in descending order of names of Enums', 'Sorted in the order of declaration of Enums');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which method returns the elements of Enum class?', 'getEnums()', 'getEnumConstants()', 'getEnumList()', 'getEnum()', 'getEnumConstants()');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which class does all the Enums extend?', 'Object', 'Enums', 'Enum', 'EnumClass', 'Enum');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these operators is used to allocate memory to array variable in Java?', 'malloc', 'alloc', 'new', 'new malloc', 'new');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these is an incorrect array declaration?', 'int arr[] = new int[5].', 'int [] arr = new int[5].', 'int arr[] = new int[5].', 'int arr[] = int [5] new', 'int arr[] = int [5] new');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these is an incorrect Statement?', 'It is necessary to use new operator to initialize an array', 'Array can be initialized using comma separated expressions surrounded by curly braces', 'Array can be initialized when they are declared', 'None of the mentioned', 'It is necessary to use new operator to initialize an array');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these is necessary to specify at time of array initialization?', 'Row', 'Column', 'Both Row and Column', 'None of the mentioned', 'Row');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Generics does not work with?', 'Set', 'List', 'Tree', 'Array', 'Array');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('How to sort an array?', 'Array.sort()', 'Arrays.sort()', 'Collection.sort()', 'System.sort()', 'Arrays.sort()');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('How to copy contents of array?', 'System.arrayCopy()', 'Array.copy()', 'Arrays.copy()', 'Collection.copy()', 'System.arrayCopy()');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Where is array stored in memory?', 'heap space', 'stack space', 'heap space and stack space', 'first generation memory', 'heap space');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('An array elements are always stored in ________ memory locations?', 'Sequential', 'Random', 'Sequential and Random', 'Binary search', 'Sequential');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of the following can be operands of arithmetic operators?', 'Numeric', 'Boolean', 'Characters', 'Both Numeric & Characters', 'Both Numeric & Characters');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Modulus operator, %, can be applied to which of these?', 'Integers', 'Floating - point numbers', 'Both Integers and floating - point numbers', 'None of the mentioned', 'Both Integers and floating - point numbers');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Decrement operator (--), decreases the value of variable by what number?', '1', '2', '3', '4', '1');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these statements are incorrect?', 'Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms', 'Assignment operators run faster than their equivalent long forms', 'Assignment operators can be used only with numeric and character data type', 'None of the mentioned', 'None of the mentioned');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these selection statements test only for equality?', 'if', 'switch', 'if & switch', 'none of the mentioned', 'switch');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these are selection statements in Java?', 'if()', 'for()', 'continue', 'break', 'if()');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of the following loops will execute the body of loop even when condition controlling the loop is initially false?', 'do-while', 'while', 'for', 'none of the mentioned', 'do-while');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these jump statements can skip processing the remainder of the code in its body for a particular iteration?', 'break', 'return', 'exit', 'continue', 'continue');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of this statement is incorrect?', 'switch statement is more efficient than a set of nested ifs', 'two case constants in the same switch can have identical values', 'switch statement can only test for equality, whereas if statement can evaluate any type of boolean expression', 'it is possible to create a nested switch statements', 'two case constants in the same switch can have identical values');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the stored in the object obj in code `box obj`;', 'Memory address of allocated memory of object', 'NULL', 'Any arbitrary pointer', 'Garbage', 'NULL');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these keywords is used to make a class?', 'class', 'struct', 'int', 'none of the mentioned', 'class');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of the following is a valid declaration of an object of class Box?', 'Box obj = new Box();', 'Box obj = new Box;', 'obj = new Box();', 'new Box obj;', 'Box obj = new Box();');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these operators is used to allocate memory for an object?', 'malloc', 'alloc', 'new', 'give', 'new');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of these statement is incorrect?', 'Every class must contain a main() method', 'Applets do not require a main() method at all', 'There can be only one main() method in a program', 'main() method must be made public', 'Every class must contain a main() method');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the return type of a method that does not return any value?', 'int', 'float', 'void', 'double', 'void');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the process of defining more than one method in a class differentiated by method signature?', 'Function overriding', 'Function overloading', 'Function doubling', 'None of the mentioned', 'Function overloading');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of the following is a method having same name as that of it"s class?', 'finalize', 'delete', 'class', 'constructor', 'constructor');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which method can be defined only once in a program?', 'main method', 'finalize method', 'static method', 'private method', 'main method');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of this statement is incorrect?', 'All object of a class are allotted memory for the all the variables defined in the class', 'If a function is defined public it can be accessed by object of other class by inheritation', 'main() method must be made public', 'All object of a class are allotted memory for the methods defined in the class', 'All object of a class are allotted memory for the methods defined in the class');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is the return type of Constructors?', 'int', 'float', 'void', 'none of the mentioned', 'none of the mentioned');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which keyword is used by the method to refer to the object that invoked it?', 'import', 'catch', 'abstract', 'this', 'this');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which of the following is a method having same name as that of its class?', 'finalize', 'delete', 'class', 'constructor', 'constructor');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which operator is used by Java run time implementations to free the memory of an object when it is no longer needed?', 'delete', 'free', 'new', 'none of the mentioned', 'none of the mentioned');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('Which function is used to perform some action when the object is to be destroyed?', 'finalize()', 'delete()', 'main()', 'none of the mentioned', 'finalize()');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is true about private constructor?', 'Private constructor ensures only one instance of a class exist at any point of time', 'Private constructor ensures multiple instances of a class exist at any point of time', 'Private constructor eases the instantiation of a class', 'Private constructor allows creating objects in other classes', 'Private constructor ensures only one instance of a class exist at any point of time');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What would be the behaviour if this() and super() used in a method?', 'Runtime error', 'Throws exception', 'compile time error', 'Runs successfully', 'compile time error');
+INSERT INTO NAMAN.MCQ (QUESTION, OPTION1, OPTION2, OPTION3, OPTION4, ANS) 
+	VALUES ('What is true about Class.getInstance()?', 'Class.getInstance calls the constructor', 'Class.getInstance is same as new operator', 'Class.getInstance needs to have matching constructor', 'Class.getInstance creates object if class does not have any constructor', 'Class.getInstance creates object if class does not have any constructor');
