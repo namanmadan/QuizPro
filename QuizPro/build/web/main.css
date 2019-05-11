@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Mar, 2019, 11:31:39 AM
+    Author     : namanmadan
+*/
+
+body{
+    background-color: #eee;
+    background: url('https://i.pinimg.com/originals/8a/6f/72/8a6f72839f6bdfa0de3a97afddcc9c0a.jpg');
+}
+.card{
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.quiz_heading{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}    
+.btnDiv{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.final_Score{
+    text-align: center;
+    font-size: 40px;
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+label, input[type="radio"]{
+    cursor: pointer;
+}
