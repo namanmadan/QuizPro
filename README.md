@@ -14,6 +14,6 @@ This a web application developed as a course project. We have used Java servlets
 Step 1: Install java and Netbeans IDE as specified above.<br>
 Step 2: Clone this repo and import the QuizPro using Netbeans.<br>
 Step 3: To create database, schema is provided with the file name db_schema.<br>
-Step 4: Make sure to change database url, username and password in db_connection class.<br>
+Step 4: Make sure to change database url, username and password in logic and populate class.<br>
 Step 5: Run the program(Make sure servlet is installed).
 
