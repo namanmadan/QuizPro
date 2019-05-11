@@ -11,9 +11,9 @@ Database: Apache Derby
 This a web application developed as a course project. We have used Java servlets to create web application along with derby database to populate the questions. To design the webpage Bootstrap was used.
 
 # How to run
-Step 1: Install java and Netbeans IDE as specified above.
-Step 2: Clone this repo and import the QuizPro using Netbeans.
-Step 3: To create database, schema is provided with the file name db_schema.
-Step 4: Make sure to change database url, username and password in db_connection class.
+Step 1: Install java and Netbeans IDE as specified above.<br>
+Step 2: Clone this repo and import the QuizPro using Netbeans.<br>
+Step 3: To create database, schema is provided with the file name db_schema.<br>
+Step 4: Make sure to change database url, username and password in db_connection class.<br>
 Step 5: Run the program(Make sure servlet is installed).
 
